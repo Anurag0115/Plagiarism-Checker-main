@@ -20,17 +20,4 @@ It includes:
 - React frontend with simple **real-time dashboard**
 - In-memory store of **recent checks**
 
----
 
-## 📂 Project Structure
-
-├── backend/ # Node.js/Express API server
-│ ├── src/ # Backend source code
-│ ├── .env.example # Example env variables
-│ ├── package.json
-│ └── ...
-├── frontend/ # React-based UI
-│ ├── src/ # React components
-│ ├── package.json
-│ └── ...
-└── README.md
