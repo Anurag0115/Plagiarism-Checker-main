@@ -23,3 +23,14 @@ It includes:
 ---
 
 ## 📂 Project Structure
+
+├── backend/ # Node.js/Express API server
+│ ├── src/ # Backend source code
+│ ├── .env.example # Example env variables
+│ ├── package.json
+│ └── ...
+├── frontend/ # React-based UI
+│ ├── src/ # React components
+│ ├── package.json
+│ └── ...
+└── README.md
