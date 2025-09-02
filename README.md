@@ -1,21 +1,25 @@
-Smart Plagiarism Checker (Google CSE + OpenAI embeddings)
-This package contains a backend (Node/Express) and a frontend (React) implementing:
+# 🔍 Smart Plagiarism Checker
 
-Google Custom Search for verbatim n-gram detection.
-Optional OpenAI embeddings for paraphrase detection and improved comparison.
-Rate limiting, logging (morgan), helmet security headers.
-Simple dashboard that shows recent checks in-memory.
-Getting started
-Backend:
-cd backend
-npm install
-copy .env.example -> .env and fill keys
-npm run dev
-Frontend:
-cd frontend
-npm install
-npm start
-You will need:
+A **full-stack plagiarism checker** that combines **Google Custom Search API** for verbatim detection with optional **OpenAI embeddings** for paraphrase detection.  
 
-GOOGLE_CSE_API_KEY and GOOGLE_CSE_CX (search engine id)
-(optional but recommended) OPENAI_API_KEY
+It includes:  
+- 📝 **Google Custom Search** for n-gram plagiarism detection  
+- 🤖 **OpenAI embeddings** for semantic similarity checks  
+- 🔒 **Secure backend** with rate limiting, logging, and `helmet` headers  
+- 📊 **Frontend dashboard** to view recent checks (in-memory storage)  
+
+---
+
+## 🚀 Features
+- Google CSE-based **verbatim detection**
+- OpenAI embeddings for **semantic similarity & paraphrase detection**
+- Express.js backend with:
+  - `morgan` logging
+  - `helmet` security headers
+  - API rate limiting
+- React frontend with simple **real-time dashboard**
+- In-memory store of **recent checks**
+
+---
+
+## 📂 Project Structure
